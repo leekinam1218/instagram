@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitalk Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <!-- Registration Form -->
+        <div class="form-box">
+            <img src="logo.png" alt="Hospitalk Logo" class="logo">
+            <h2>회원가입</h2>
+            <form>
+                <input type="text" placeholder="이름" required>
+                <select required>
+                    <option value="" disabled selected>성별</option>
+                    <option value="male">남성</option>
+                    <option value="female">여성</option>
+                </select>
+                <input type="date" placeholder="생년월일" required>
+                <input type="tel" placeholder="전화번호" required>
+                <input type="email" placeholder="이메일 주소" required>
+                <input type="password" placeholder="비밀번호" required>
+                <input type="password" placeholder="비밀번호 확인" required>
+                
+                <nav>
+                    <button type="submit">가입하기</button>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </form>
+        </div>
+</html>
